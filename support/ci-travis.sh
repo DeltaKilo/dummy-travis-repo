@@ -30,7 +30,7 @@ java -version
 javac -version
 echo "-----------------------"
 echo "Updating Oracle JDK to u40"
-sudo apt-mark hold oracle-java7-installer
+sudo apt-mark unhold oracle-java7-installer
 sudo apt-get -qq install oracle-java7-installer
 echo "Switching to oracle-jdk7u40"
 sudo update-java-alternatives -s java-7-oracle

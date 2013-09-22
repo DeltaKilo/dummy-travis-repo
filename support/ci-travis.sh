@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get install icedtea-6-plugin icedtea-7-plugin
+sudo apt-get install openjdk-6-jdk openjdk-7-jdk icedtea-6-plugin icedtea-7-plugin
 echo "Switching to openjdk6"
 sudo update-java-alternatives -s java-1.6.0-openjdk-amd64
 echo $JAVA_HOME

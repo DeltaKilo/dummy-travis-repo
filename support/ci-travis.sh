@@ -9,3 +9,4 @@ sudo jdk_switcher use oracle-jdk7
 echo $JAVA_HOME
 
 
+update-java-alternatives -l

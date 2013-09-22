@@ -10,3 +10,5 @@ echo $JAVA_HOME
 
 
 update-java-alternatives -l
+
+exit 0

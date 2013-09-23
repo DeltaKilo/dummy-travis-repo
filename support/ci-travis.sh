@@ -7,7 +7,7 @@ switch_jdk () {
 }
 
 echo "*** Memory, CPU & kernel info ***"
-free -h
+free
 lscpu
 uname -a
 

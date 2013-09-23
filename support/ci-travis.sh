@@ -1,6 +1,6 @@
 #!/bin/sh
 
-switch_jdk {
+switch_jdk () {
  sudo update-java-alternatives -s $1
  JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
  echo "Java switched to $1"
